@@ -1,4 +1,4 @@
-VAR myLives=3
+VAR myLives=2
 
 
 -> beginning_of_game
