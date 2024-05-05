@@ -48,7 +48,7 @@ How many countries are there?
 - (badjob)
 + [213] -> subtract_lives ("eesh") -> Q6.badjob
 + [195] -> Q6 
-+ [194] -> subtract_lives ("i've lost faith") -> Q6.badjob
++ [194] -> subtract_lives ("i've lost faith in you") -> Q6.badjob
 + [214] -> subtract_lives ("did you make it out of elementary school?") -> Q6.badjob
 
 
@@ -57,19 +57,19 @@ Smarty pants!
 - (badjob)
 Who wrote the famous play "Romeo and Juliet" ?
 + [Anton Chekhov] -> subtract_lives ("stupid stupid stupid") -> Q7.badjob
-+[Christopher Marlowe] -> subtract_lives ("stupid stupid stupid") -> Q7.badjob
++[Christopher Marlowe] -> subtract_lives ("tsk tsk.") -> Q7.badjob
 + [William Shakespeare] -> Q7
-+[Arthur Miller] -> subtract_lives ("stupid stupid stupid") -> Q7.badjob
++[Arthur Miller] -> subtract_lives ("You can't see me but I am shaking my head.") -> Q7.badjob
 
 
 =Q7
 You amaze me. 
 - (badjob)
 Which planet is known as the "red planet" ?
-+ [Jupiter] -> subtract_lives ("even this you don't know?") -> Q8.badjob
++ [Jupiter] -> subtract_lives ("Were you born under a rock?") -> Q8.badjob
 + [Mars] -> Q8 
-+[Mercury] -> subtract_lives ("even this you don't know?") -> Q8.badjob
-+[Neptune] -> subtract_lives ("even this you don't know?") -> Q8.badjob
++[Mercury] -> subtract_lives ("sigh.") -> Q8.badjob
++[Neptune] -> subtract_lives ("WRONG") -> Q8.badjob
 
 
 =Q8
@@ -87,8 +87,8 @@ What a feat of feminism !
 - (badjob)
 What is the chemical symbol for gold?
 + [Tc] -> subtract_lives ("you amaze me with your stupidity") -> Q10.badjob
-+ [Nb] -> subtract_lives ("you amaze me with your stupidity") -> Q10.badjob
-+ [Fe] -> subtract_lives ("you amaze me with your stupidity") -> Q10.badjob
++ [Nb] -> subtract_lives ("you are wealthy with idiocracy") -> Q10.badjob
++ [Fe] -> subtract_lives ("*loud error sound*") -> Q10.badjob
 + [Au] -> Q10 
 
 
@@ -97,9 +97,9 @@ Isn't chemistry so fun?
 - (badjob)
 What is the capital of Australia?
 +[Melbourne] ->  subtract_lives ("you would think huh?") -> Q11.badjob
-+[Sydney] -> subtract_lives ("you would think huh?") -> Q11.badjob
++[Sydney] -> subtract_lives ("pretty basic guess") -> Q11.badjob
 +[Canberra] -> Q11
-+[Adelaide] -> subtract_lives ("you would think huh?") -> Q11.badjob
++[Adelaide] -> subtract_lives ("props on you for at least guessing this one") -> Q11.badjob
 
 
 =Q11
@@ -116,10 +116,10 @@ what has one eye but can't see?
 Tee hee. 
 - (badjob)
 How much wood can a woodchuck chuck?
-+ [none] -> subtract_lives ("you thought this made sense?") -> Q13.badjob
++ [none] -> subtract_lives ("if a woodchuck can chuck wood, its gonna chuck.") -> Q13.badjob
 + [ a lot ] -> subtract_lives ("you thought this made sense?") -> Q13.badjob
 + [5 pieces] -> Q13
-+ [all of it] -> subtract_lives ("you thought this made sense?") -> Q13.badjob
++ [all of it] -> subtract_lives ("I wish mr.woodchuck possessed such powers") -> Q13.badjob
 
 
 
@@ -182,19 +182,19 @@ oh aren't you so lovey dovey
 - (badjob)
 In the xy-plane, the point (p,r) lies on the coordinate line with the equation y = x + b, where b is a constant. The point with coordinates (2p, 5r) lies on the line with equation y=2x+b. If p cannot equal 0, what is the value of r/p ? 
 
-+ [2/5] -> subtract_lives ("i didn't think you would get this") -> Q20.badjob
++ [2/5] -> subtract_lives ("didn't want to pull out  a pen and paper? ") -> Q20.badjob
 + [3/4] -> Q20
-+ [4/3] -> subtract_lives ("i didn't think you would get this") -> Q20.badjob
-+ [5/2] -> subtract_lives ("i didn't think you would get this") -> Q20.badjob
++ [4/3] -> subtract_lives ("this was pretty simple...") -> Q20.badjob
++ [5/2] -> subtract_lives ("basic math stumps you huh? ") -> Q20.badjob
 
 =Q20
 I'm suspicious of you. 
 - (badjob)
 What is the most abundant element in the universe? 
 + [Hydrogen] -> Q21
-+[Nitrogen] -> subtract_lives ("stupid") -> Q21.badjob
-+[Oxygen] -> subtract_lives ("stupid") -> Q21.badjob
-+[Carbon] -> subtract_lives ("stupid") -> Q21.badjob
++[Nitrogen] -> subtract_lives ("where you dropped on the head as a child?") -> Q21.badjob
++[Oxygen] -> subtract_lives ("not the sharpest tool I see") -> Q21.badjob
++[Carbon] -> subtract_lives ("i searched up dumb in the dictionary, and it was just a photo of your face.") -> Q21.badjob
 
 
 =Q21
@@ -211,10 +211,10 @@ What is a computer?
 Dont ask questions. 
 - (badjob)
 Roughly how long does it take the sun's light to reach the earth?
-+[8 hours] -> subtract_lives ("i love science!") -> Q23.badjob
++[8 hours] -> subtract_lives ("I see they put the instructions on shampoo bottles for you") -> Q23.badjob
 +[8 minutes] -> Q23 
-+[8 seconds] -> subtract_lives ("i love science!") -> Q23.badjob
-+[8 days] -> subtract_lives ("i love science!") -> Q23.badjob
++[8 seconds] -> subtract_lives ("I didn't know IQs got this low") -> Q23.badjob
++[8 days] -> subtract_lives ("I'm going to submit you to a study") -> Q23.badjob
 
 
 =Q23
@@ -223,24 +223,24 @@ ok. moving on.
 Time for my favorite segment: getting to know your kind and generous game maker.
 
 What is my favorite number? 
-+ [5] -> subtract_lives ("I hate you") -> Q24.badjob
++ [5] -> subtract_lives ("ouch.") -> Q24.badjob
 + [7] -> Q24
-+ [33] -> subtract_lives ("I hate you") -> Q24.badjob
-+ [25]  -> subtract_lives ("I hate you") -> Q24.badjob
++ [33] -> subtract_lives ("why would it be 33?") -> Q24.badjob
++ [25]  -> subtract_lives ("The thought of your low intellect makes me itch. ") -> Q24.badjob
 
 
 =Q24
 It always has been. 
 -(badjob)
 What is my middle name? 
-+ [mintern] -> subtract_lives ("so you really don't know me") -> Q24.badjob
-+ [midturn] -> subtract_lives ("so you really don't know me") -> Q24.badjob
++ [mintern] -> subtract_lives ("dont be mean.") -> Q24.badjob
++ [midturn] -> subtract_lives ("thats not even a real name") -> Q24.badjob
 + [minturn] -> Q25
 + [mintarn] -> subtract_lives ("so you really don't know me") -> Q24.badjob
  
 
 =Q25
-Either you made a good guess or you love me. No in between 
+Either you made a good guess or you are in love me. No in between 
 - (badjob)
 What's my favorite food?
 +[pizza] -> subtract_lives ("pizza is pretty good...") -> Q26.badjob
@@ -272,7 +272,7 @@ What is the scariest part of life?
 =Q28
 Yeah that one tends to get me too. Life is pretty scary.
 -(badjob)
-What is the best part of life?
+What is the happiest part of life?
 + [health] -> Q29
 + [family] -> Q29
 + [friends] -> Q29
@@ -297,7 +297,7 @@ Are you happy?
 +[no] -> sad
 
 
-=happy 
+== happy == 
 I hope you are actually happy, and didn't treat that question as another part of the quiz. There is so much in this life worth living. I mean, you get to take online quizzes, isn't that pretty fun?
 
 maybe not.
@@ -305,14 +305,13 @@ maybe not.
 and yet you stayed. -> end
 
 
-=sad 
+== sad ==
 I don't know where all of this came from. I don't know who you are. Theres a large chance you don't know who I am. I hope that you actually are happy, and that your response was a guess at what you thought I made the answer. That doesn't say much about me. 
     In all of life's pursuits you will fail and fail and fail again. The cruelties of the universe are immesurable, as I am sure you already know. I hope I didn't put you through the wringer, and I hope you have a happy life. -> end 
--> END
 
 
 == end ==
-You made it to the end. You really did it. You perservered and you made it through. I'm proud of you, really I am. 
+You made it to the end. You really did it. You perservered and you made it through. I'm proud of you.
 
 You aren't going to get anything. I don't have anything prepared. 
 
