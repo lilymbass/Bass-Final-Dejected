@@ -299,10 +299,8 @@ Are you happy?
 
 == happy == 
 I hope you are actually happy, and didn't treat that question as another part of the quiz. There is so much in this life worth living. I mean, you get to take online quizzes, isn't that pretty fun?
-
-maybe not.
-
-and yet you stayed. -> end
+    maybe not.
+    and yet you stayed. -> end
 
 
 == sad ==
